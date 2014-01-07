@@ -1,3 +1,6 @@
 [submodule "cookboks"]
 	path = cookboks
 	url = git@github.com:mayhem/music-lager-cookbooks.git
+[submodule "cookbooks"]
+	path = cookbooks
+	url = git@github.com:mayhem/music-lager-cookbooks.git
