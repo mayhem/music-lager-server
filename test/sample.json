@@ -1,0 +1,14 @@
+entry : {
+    'artist'       : "Portishead",
+    'track'        : "Strangers",
+    'timestamp'    : 1389117235,
+    'album'        : "Dummy",
+    'context'      : "yermom",
+    'chosenByUser' : 0,
+    'trackNumber'  : 3,
+    'mbid'         : 'e97f805a-ab48-4c52-855e-07049142113d',
+    'artistMbid'   : '8f6bd1e4-fbe1-4f50-aa9b-94c450ec0f11',
+    'releaseMbid'  : 'f88d6d9b-9664-4c54-887c-2bd83248bc2c',
+    'albumArtist'  : '',
+    'duration'     : 238
+}
