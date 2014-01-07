@@ -1,0 +1,3 @@
+[submodule "cookboks"]
+	path = cookboks
+	url = git@github.com:mayhem/music-lager-cookbooks.git
