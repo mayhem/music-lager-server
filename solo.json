@@ -1,0 +1,7 @@
+{
+    "run_list": [ 
+         "recipe[music-lager-server::prereq]",
+         "recipe[elasticsearch::default]",
+         "recipe[music-lager-server::default]"
+    ]
+}
