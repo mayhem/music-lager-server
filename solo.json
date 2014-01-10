@@ -1,7 +1,8 @@
 {
     "run_list": [ 
          "recipe[music-lager-server::prereq]",
-         "recipe[elasticsearch::default]",
+         "recipe[tar::default]",
+         "recipe[music-lager-server::solr]",
          "recipe[music-lager-server::default]"
     ]
 }
