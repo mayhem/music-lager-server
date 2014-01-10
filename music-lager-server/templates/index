@@ -29,7 +29,15 @@
                               </a>
                           {% endif %}
                        </td>
-                       <td>{{ doc.track }}</td>
+                       <td>
+                          {% if doc.trackMbid %}
+                              <a href="http://musicbrainz.org/track/{{ doc.trackMbid }}">
+                          {% endif %}
+                          {{ doc.track }}
+                          {% if doc.trackMbid %}
+                              </a>
+                          {% endif %}
+                       </td>
                     </tr>
                 {% endfor %}
                 </table>

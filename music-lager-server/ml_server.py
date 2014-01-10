@@ -26,13 +26,10 @@ def index():
     response = urllib2.urlopen(url)
     data = json.loads(response.read())
     docs = data['response']['docs']
-    print "before: " , docs
     for doc in docs:
         for k in doc.keys():
             if type(doc[k]) == list:
                 doc[k] = doc[k][0]
-    print "after: " , docs
-    print
     return render_template("index", docs=docs)
 
 if __name__ == "__main__":
